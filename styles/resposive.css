@@ -1,0 +1,60 @@
+@media(max-width: 780px) {
+    #page-topo {
+        width: 100%;
+        padding: 30px;
+    }
+    .sidebar {
+        display: block;
+        margin-left: -100%;
+    }
+    .exibir-sidebar {
+        margin-left: 0px;
+    }
+    #posicao-txt {
+        margin-left: 0px;
+    }
+    #page-topo h2 {
+        font-size: 17px;
+    }
+    #itens-topo {
+        display: block;
+    }
+    #container {
+        margin-left: 0px;
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #container-sidebar {
+        background-color: red;
+        display: none;
+    }
+    #container h3 {
+        width: 100%;
+    }
+    #conteudo {
+        margin: 0px;
+        width: 100%;
+    }
+    .container-discussoes {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #txt-apos-img {
+        width: 100%;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    #container-footer {
+        margin-left: 0px;
+    }
+    .btncheck {
+        float: right;
+        display: block;
+    }
+}
