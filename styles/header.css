@@ -9,7 +9,7 @@
     position: fixed;
     width: 221px;
     height: 100%;
-    box-shadow: #725C5C 4px 4px 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     transition: all .5s ease;
 }
 

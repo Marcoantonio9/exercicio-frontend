@@ -148,6 +148,7 @@ main {
     height: 100%;
     margin-top: 20px;
     border: 1px solid #ECECEC;
+    border-radius: 3px;
 }
 
 #detalhes-campo-header {
@@ -156,6 +157,8 @@ main {
     background-color: #FDF1EB;
     display: flex;
     align-items: center;
+
+    border-radius: 3px;
 }
 
 #detalhes-campo-header h3 {
@@ -413,17 +416,28 @@ main {
 
 .campos-topicos input, textarea {
     width: 100%;
+    height: 40px;
     margin-bottom: 20px;
+    padding: 10px;
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
     color: #4D4D4D;
+
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+
 }
 
 textarea {
     margin-bottom: 0px;
+    height: 100px;
+
+    border-radius: 3px 0px 0px;
 }
 
 #area-teste {
@@ -501,7 +515,7 @@ textarea {
     margin-right: 15px;
 }
 
-.comentarios, .comentarios2, .comentarios3 {
+.comentarios, .comentarios1, .comentarios2, .comentarios3, .resposta-autor {
     width: 100%;
     height: 100%;
     margin-top: -20px;
@@ -509,9 +523,14 @@ textarea {
     border: 1px solid #E7E7E7;
     box-sizing: border-box;
     border-radius: 0px;
-    padding: 20px;
+    padding: 20px 20px 50px 20px;
     display: none;
 }
+
+.resposta-autor{
+    background-color: #ffffff;
+}
+
 
 .parte-autor {
     display: flex;

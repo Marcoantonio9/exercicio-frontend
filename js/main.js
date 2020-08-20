@@ -68,6 +68,10 @@ let comentarios2 = document.querySelector('#coments2')
     comentarios2.addEventListener('click', exibindoComents2)
 
 function exibindoComents2(e){
+    document.querySelector('.comentarios1').classList.toggle('exibir-coments')
+    
+    document.querySelector('.resposta-autor').classList.toggle('exibir-coments')
+
     document.querySelector('.comentarios2').classList.toggle('exibir-coments')
 
     document.querySelector('.comentarios3').classList.toggle('exibir-coments')
