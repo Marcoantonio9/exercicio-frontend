@@ -285,6 +285,8 @@ main {
     color: #5C5C5C;
     display: none;
     margin: 40px 0px;
+
+    border: 1px solid red;
 }
 
 .exibir-sub2 {
@@ -310,6 +312,10 @@ main {
 
 .segundo-container-discussoes {
     display: none;
+}
+
+.exibir-segundo-container-discussoes{
+    display: flex;
 }
 
 #conteudo-imagens img {
@@ -583,6 +589,10 @@ textarea {
 
 .feedback a {
     color: #ED7839;
+}
+
+.exibir-feedback{
+    display: flex;
 }
 
 .topicosh3 {

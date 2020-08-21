@@ -22,7 +22,7 @@ function exibirCampo(e){
     document.querySelector('.container-discussoes').classList.toggle('ocultar-discussoes')
 
     //Ocultando botão criar 
-    document.querySelector('#criar-topico').style.display = 'none'
+    document.querySelector('.btnAqui').classList.toggle('ocultar-btn-conteudo')
 
     //Exibir subtitulo span 
     document.querySelector('.sub2').classList.toggle('exibir-sub2')    
@@ -36,11 +36,11 @@ let btnEnviar = document.querySelector('.btn-topicos')
 
 function enviarForm(e){
 
-    document.querySelector('.segundo-container-discussoes').style.display = 'flex'
+    document.querySelector('.segundo-container-discussoes').classList.toggle('exibir-segundo-container-discussoes')
 
-    document.querySelector('.sub2').style.display = 'none'
+    document.querySelector('.sub2').classList.toggle('exibir-sub2')    
 
-    document.querySelector('.feedback').style.display = 'flex'
+    document.querySelector('.feedback').classList.toggle('exibir-feedback')
 
 
     e.preventDefault()
@@ -50,8 +50,24 @@ function enviarForm(e){
 let criarNovoTopico = document.querySelector('#enviar-novamente')
     criarNovoTopico.addEventListener('click', criandoTopico)
 
-function criandoTopico(){
-    document.location.reload(true)
+function criandoTopico(e){
+
+    //Exibindo os botões
+    document.querySelector('.btnAqui').classList.toggle('ocultar-btn-conteudo')
+
+    //Exibindo titulos e imagens iniciais
+    document.querySelector('.container-discussoes').classList.toggle('ocultar-discussoes')
+
+    //Ocultando os campos input
+    document.querySelector('.campos-topicos').classList.toggle('exibir-campos-topicos')
+
+    //Ocultando titulos
+    document.querySelector('.segundo-container-discussoes').classList.toggle('exibir-segundo-container-discussoes')
+
+
+    //Ocultando feedback
+    document.querySelector('.feedback').classList.toggle('exibir-feedback')
+    e.preventDefault()
 }
 
 //Funções para exibição de comentários
