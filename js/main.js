@@ -40,6 +40,9 @@ function enviarForm(e){
 
     document.querySelector('.sub2').classList.toggle('exibir-sub2')    
 
+    //Btn novo topico
+    document.querySelector('.enviar-novamente').classList.toggle('mostrar-enviar-novamente')
+
     document.querySelector('.feedback').classList.toggle('exibir-feedback')
 
 
@@ -64,6 +67,8 @@ function criandoTopico(e){
     //Ocultando titulos
     document.querySelector('.segundo-container-discussoes').classList.toggle('exibir-segundo-container-discussoes')
 
+    //Ocultar Btn novo topico
+    document.querySelector('.enviar-novamente').classList.toggle('mostrar-enviar-novamente')
 
     //Ocultando feedback
     document.querySelector('.feedback').classList.toggle('exibir-feedback')

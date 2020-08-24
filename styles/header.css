@@ -34,6 +34,7 @@ nav ul li a {
 nav ul li:hover {
     color: #725C5C;
     background-color: #FDF1EB;
+    border-left: 6px solid #ED7839;
     list-style: none;
 }
 

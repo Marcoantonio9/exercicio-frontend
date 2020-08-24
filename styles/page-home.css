@@ -341,10 +341,12 @@ main {
 
 #txt-apos-img2 {
     width: 100%;
+    padding-bottom: 35px;
 }
 
 #link-apos-img {
     color: #ED7839;
+    padding-bottom: 20px;
 }
 
 #conteudo .btn-conteudo {
@@ -383,7 +385,20 @@ main {
     width: 200px;
     height: 35px;
     border: none;
-    margin-top: 20px;
+
+    position: relative;
+}
+
+.enviar-novamente{
+    display: none;
+}
+
+.posicao-btn-enviar-novamente{
+    margin: -20px 0px 40px 0px;
+}
+
+.mostrar-enviar-novamente{
+    display: block;
 }
 
 #enviar-novamente a {
@@ -416,6 +431,8 @@ main {
     color: #ED7839;
     display: flex;
     align-items: left;
+
+    margin-top: 3px;
 }
 
 .campos-topicos input, textarea {
@@ -442,9 +459,10 @@ textarea {
     height: 100px;
 
     border-radius: 3px 0px 0px;
+    resize: none;
 }
 
-#area-teste {
+#area-texto-msg {
     display: flex;
     justify-content: space-between;
     align-items: center;
